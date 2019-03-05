@@ -118,7 +118,7 @@ abstract class SearchBarBuilder<T extends SearchBarState>
   Widget _buildCancelSearchButton() {
     return SearchBarButton(
       icon: Icons.arrow_back,
-      color: searchAttrs.primaryDetailColor,
+      color: Colors.white,
       onPressed: searchState.cancelSearchCallback,
       marginHorizontal: searchAttrs.cancelSearchMarginLeft,
     );
